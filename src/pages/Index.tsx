@@ -195,7 +195,7 @@ export default function Index() {
         {/* Stats */}
         <div className="relative z-10 mt-20 w-full max-w-3xl mx-auto grid grid-cols-3 gap-4 animate-fade-up" style={{ animationDelay: "0.4s", opacity: 0 }}>
           {[
-            { val: "3+", label: "Года опыта" },
+            { val: "8", label: "Лет стабильной торговли" },
             { val: "87%", label: "Прибыльных сделок" },
             { val: "40K+", label: "Подписчиков" },
           ].map(s => (
