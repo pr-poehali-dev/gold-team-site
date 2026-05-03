@@ -160,7 +160,7 @@ export default function Index() {
       <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://cdn.poehali.dev/projects/a01245e3-99c5-4748-a289-d3dc6be5337b/files/92594d9e-cee4-443c-a579-ae493292979c.jpg"
+            src="https://cdn.poehali.dev/projects/a01245e3-99c5-4748-a289-d3dc6be5337b/files/bcfe305f-8a17-411d-a681-d59c290c010b.jpg"
             alt="Starry sky with rocket"
             className="w-full h-full object-cover opacity-40"
           />
