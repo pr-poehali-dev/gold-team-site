@@ -131,7 +131,7 @@ export default function Index() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrollY > 60 ? "bg-[#080808]/90 backdrop-blur-xl border-b border-gold-500/10" : ""}`}>
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href="#" className="font-display text-xl font-semibold tracking-widest text-gold-400">
-            GOLD<span className="text-white">TEAM</span>
+            Копаем<span className="text-white"> золото</span>
           </a>
           <div className="hidden md:flex items-center gap-8">
             {navItems.map(n => (
@@ -174,7 +174,7 @@ export default function Index() {
           </div>
           <h1 className="font-display text-6xl md:text-8xl font-light leading-none mb-6 tracking-tight"
             style={{ background: "linear-gradient(135deg, #f9f0cb 0%, #d4af37 40%, #b8962a 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-            GOLD TEAM
+            Копаем золото
           </h1>
           <p className="font-body text-lg md:text-xl text-white/50 max-w-2xl mx-auto leading-relaxed mb-10">
             Мы превращаем движение цены золота в стабильный результат — через дисциплину, аналитику и проверенные стратегии
@@ -374,7 +374,7 @@ export default function Index() {
       <footer className="py-12 px-6 border-t border-white/5">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-display text-lg tracking-widest text-gold-400">
-            GOLD<span className="text-white/50">TEAM</span>
+            Копаем<span className="text-white/50"> золото</span>
           </div>
           <p className="text-white/20 text-xs font-body text-center">
             Торговля финансовыми инструментами сопряжена с риском. Информация на сайте не является инвестиционной рекомендацией.
