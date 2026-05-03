@@ -160,11 +160,11 @@ export default function Index() {
       <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://cdn.poehali.dev/projects/a01245e3-99c5-4748-a289-d3dc6be5337b/files/8a1c8157-99c7-4b25-8324-844a29e880a4.jpg"
-            alt="Trading team"
-            className="w-full h-full object-cover opacity-20"
+            src="https://cdn.poehali.dev/projects/a01245e3-99c5-4748-a289-d3dc6be5337b/files/b29bf870-91f0-40d4-94d9-9087c63d9db5.jpg"
+            alt="Starry sky with rocket"
+            className="w-full h-full object-cover opacity-40"
           />
-          <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, #080808/30, #080808 90%)" }} />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(8,8,8,0.2) 0%, rgba(8,8,8,0.95) 100%)" }} />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto animate-fade-up">
