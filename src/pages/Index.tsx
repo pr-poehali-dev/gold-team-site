@@ -54,12 +54,7 @@ const ROADMAP = [
   { q: "Q2 2026", title: "Инвестиционный фонд", desc: "Открытие доверительного управления для квалифицированных инвесторов", done: false },
 ];
 
-const SOCIALS = [
-  { icon: "Send", name: "Telegram", handle: "@goldteam_trading", color: "#229ED9", href: "#" },
-  { icon: "Youtube", name: "YouTube", handle: "GOLD TEAM", color: "#FF0000", href: "#" },
-  { icon: "Instagram", name: "Instagram", handle: "@goldteam.trade", color: "#E1306C", href: "#" },
-  { icon: "Twitter", name: "X / Twitter", handle: "@goldteam_fx", color: "#d4af37", href: "#" },
-];
+
 
 function useInView(threshold = 0.15) {
   const ref = useRef<HTMLDivElement>(null);
@@ -106,7 +101,6 @@ export default function Index() {
   const team = useInView();
   const strategy = useInView();
   const roadmap = useInView();
-  const socials = useInView();
   const chart = useInView();
 
   const navItems = [
@@ -114,7 +108,6 @@ export default function Index() {
     { label: "Стратегия", href: "#strategy" },
     { label: "График", href: "#chart" },
     { label: "Дорожная карта", href: "#roadmap" },
-    { label: "Соцсети", href: "#socials" },
   ];
 
   return (
@@ -334,37 +327,6 @@ export default function Index() {
                   </div>
                 ))}
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SOCIALS */}
-      <section id="socials" className="py-24 px-6">
-        <div ref={socials.ref} className="max-w-4xl mx-auto">
-          <div className={`transition-all duration-1000 ${socials.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-            <div className="text-center mb-16">
-              <span className="text-gold-500/60 text-xs tracking-[0.3em] uppercase font-body">Следите за нами</span>
-              <h2 className="font-display text-5xl md:text-6xl font-light mt-3 text-white/90">Социальные сети</h2>
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold-500 to-transparent mx-auto mt-5" />
-              <p className="text-white/40 text-sm mt-4 font-body">Аналитика, сделки в реальном времени и обучение</p>
-            </div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {SOCIALS.map((s, i) => (
-                <a key={s.name} href={s.href}
-                  className="group flex items-center gap-5 p-6 rounded-2xl border border-white/5 bg-white/[0.02] hover:border-white/15 hover:bg-white/[0.04] transition-all duration-300"
-                  style={{ transitionDelay: `${i * 80}ms` }}>
-                  <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-transform group-hover:scale-110 duration-300"
-                    style={{ background: `${s.color}20`, border: `1px solid ${s.color}40` }}>
-                    <Icon name={s.icon} fallback="Link" size={22} style={{ color: s.color }} />
-                  </div>
-                  <div className="flex-1">
-                    <div className="font-body font-medium text-white/80 group-hover:text-white transition-colors">{s.name}</div>
-                    <div className="text-white/35 text-sm font-body">{s.handle}</div>
-                  </div>
-                  <Icon name="ArrowRight" size={16} className="text-white/20 group-hover:text-white/50 group-hover:translate-x-1 transition-all" />
-                </a>
-              ))}
             </div>
           </div>
         </div>
