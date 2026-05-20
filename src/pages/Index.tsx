@@ -161,10 +161,11 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto animate-fade-up">
-          <div className="inline-flex items-center gap-2 bg-gold-500/10 border border-gold-500/30 rounded-full px-4 py-1.5 mb-8 text-gold-400 text-xs tracking-widest uppercase font-body">
+          <a href="https://t.me/sniper_gold_trade" target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gold-500/10 border border-gold-500/30 rounded-full px-4 py-1.5 mb-8 text-gold-400 text-xs tracking-widest uppercase font-body hover:bg-gold-500/20 transition-colors">
             <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-            Профессиональная торговля золотом
-          </div>
+            Профессиональная торговля золотом · @sniper_gold_trade
+          </a>
           <h1 className="font-display text-6xl md:text-8xl font-light leading-none mb-6 tracking-tight"
             style={{ background: "linear-gradient(135deg, #f9f0cb 0%, #d4af37 40%, #b8962a 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
             Копаем золото
