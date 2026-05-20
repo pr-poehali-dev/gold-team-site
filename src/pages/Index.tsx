@@ -314,8 +314,7 @@ export default function Index() {
                     style={{ transitionDelay: `${i * 100}ms` }}>
                     <div className={`flex-1 ${i % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12 md:text-left"}`}>
                       <div className={`p-6 rounded-xl border transition-all duration-300 ${item.done ? "border-gold-500/30 bg-gold-500/5" : "border-white/5 bg-white/[0.02]"}`}>
-                        <span className="text-gold-500/60 text-xs tracking-widest uppercase font-body">{item.q}</span>
-                        <h3 className="font-display text-xl text-white/90 mt-1 mb-2">{item.title}</h3>
+                        <h3 className="font-display text-xl text-white/90 mb-2">{item.title}</h3>
                         <p className="text-white/40 text-sm font-body leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
@@ -327,6 +326,14 @@ export default function Index() {
                   </div>
                 ))}
               </div>
+            </div>
+            <div className="mt-14 flex justify-center">
+              <a href="https://t.me/sniper_gold_trade" target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-3 px-10 py-4 rounded-full font-body text-base font-medium tracking-wide text-black transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.4)] animate-pulse-gold"
+                style={{ background: "linear-gradient(135deg, #d4af37, #f9f0cb)" }}>
+                <Icon name="Send" size={20} />
+                Перейти в Telegram канал
+              </a>
             </div>
           </div>
         </div>
