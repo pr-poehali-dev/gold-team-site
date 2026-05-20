@@ -178,9 +178,9 @@ export default function Index() {
               style={{ background: "linear-gradient(135deg, #d4af37, #f9f0cb)" }}>
               Узнать о команде
             </a>
-            <a href="#chart"
+            <a href="https://t.me/sniper_gold_trade" target="_blank" rel="noopener noreferrer"
               className="px-8 py-3 rounded-full font-body text-sm font-medium tracking-wide text-gold-400 border border-gold-500/40 hover:bg-gold-500/10 transition-all">
-              Live график
+              Наш канал в Telegram
             </a>
           </div>
         </div>
